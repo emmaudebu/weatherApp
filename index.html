@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="card cardloading">
+        <div class="search">
+            <input type="text" class="searchbar" placeholder="Enter your City or Country">
+            <button class="btn"><svg class="svg-icon" viewBox="0 0 20 20" width="1.5em">
+                    <path fill="white" d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896
+								c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519
+								c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461
+								s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z"></path>
+                </svg> </button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in <span class="cityTown" style="color:#eb6f4d;">Nigeria</span></h2>
+            <div>
+                <h2 class="temp"><span class="temp1">50</span> °C</h2>
+            </div>
+            <div class="main">
+                <div class="description" style="color: #eb6f4d;">Cloudy</div>
+                <img src="" alt="" class="icon">
+            </div>
+            <div class="humidity">Humidity: <span class="humidity1">40</span> %</div>
+            <br>
+            <div class="wind">Wind speed: <span class="wind1">15</span> km/h</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
